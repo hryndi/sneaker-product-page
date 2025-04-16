@@ -11,7 +11,7 @@ import { useMediaQuery } from "./useMediaquery";
 
 const ImageCarousel = ({
   desktop,
-  mobile,
+
   gallery,
   setIsModalOpen,
 }: {
