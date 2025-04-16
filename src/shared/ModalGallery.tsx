@@ -1,12 +1,5 @@
 import ImageCarousel from "./Carousel";
 
-interface CartObject {
-  productId: number;
-  price: number;
-  picture: string;
-  amount: number;
-}
-
 const ModalGallerie = ({
   onClose,
 }: {

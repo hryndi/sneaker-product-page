@@ -8,11 +8,9 @@ interface CartObject {
 }
 
 const Navbar = ({
-  itemAmount,
   cartObject,
   setCartObject,
 }: {
-  itemAmount: number;
   cartObject: CartObject[] | null;
   setCartObject: React.Dispatch<React.SetStateAction<CartObject[] | null>>;
 }) => {

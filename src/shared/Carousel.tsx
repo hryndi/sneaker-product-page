@@ -7,7 +7,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useEffect, useState } from "react";
-import ModalGallerie from "./ModalGallery";
 import { useMediaQuery } from "./useMediaquery";
 
 const ImageCarousel = ({
